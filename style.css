@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+#container {
+    height: 95vh;
+    width: 95vw;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+#screen {
+    border: 10px solid #ccc;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 80vh;
+    max-width: 75vw;
+}
